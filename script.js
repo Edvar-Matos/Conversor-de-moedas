@@ -13,16 +13,16 @@ function convertValues() {
 
   const realDolar = inputCurrenyMoney / 4.99;
   const realEuro = inputCurrenyMoney / 5.44;
-  const realLibra = inputCurrenyMoney / 6.37;
-  const dolarEuro = inputCurrenyMoney / 0.92;
-  const dolarReal = inputCurrenyMoney / 4.99;
+  const realLibra = inputCurrenyMoney / 6.36;
+  const dolarEuro = inputCurrenyMoney / 1.08;
+  const dolarReal = inputCurrenyMoney / 0.20;
   const dolarLibra = inputCurrenyMoney / 1.27;
-  const euroDolar = inputCurrenyMoney / 0.92;
-  const euroLibra = inputCurrenyMoney / 0.85;
-  const euroReal = inputCurrenyMoney / 5.44;
-  const libraDolar = inputCurrenyMoney / 1.27;
+  const euroDolar = inputCurrenyMoney / 0.91;
+  const euroLibra = inputCurrenyMoney / 1.16;
+  const euroReal = inputCurrenyMoney / 0.18;
+  const libraDolar = inputCurrenyMoney / 0.78;
   const libraEuro = inputCurrenyMoney / 0.85;
-  const libraReal = inputCurrenyMoney / 6.36;
+  const libraReal = inputCurrenyMoney / 0.15;
 
   // Real Brasileiro
 
