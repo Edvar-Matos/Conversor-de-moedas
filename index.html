@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Conversor de moedas</title>
+  </head>
+  <body>
+    <img class="logo" src="./assets/money.gif" alt="logo-conversor-de-moedas" />
+
+    <main>
+      <br />
+      <label for="">
+        Converter <b>de</b>
+        <select required class="select-convert" name="moeda-para-converter">
+          <option value="selecionar">Selecione uma moeda</option>
+          <option value="real">R$ Real Brasileiro</option>
+          <option value="dollar">US$ Dólar Americano</option>
+          <option value="euro">€ Euro</option>
+          <option value="libra">£ Libra</option>
+        </select>
+      </label>
+
+      <label for="">
+        Converter <b>para</b>
+        <select required class="currency-select" name="moeda-ja-convertida">
+          <option value="selecionar">Selecione outra moeda</option>
+          <option value="real">R$ Real Brasileiro</option>
+          <option value="dollar">US$ Dólar Americano</option>
+          <option value="euro">€ Euro</option>
+          <option value="libra">£ Libra</option>
+        </select>
+      </label>
+
+      <label for="">
+        <b>Valor</b>
+        <input
+          class="input-currency"
+          type="text"
+          placeholder="R$ 10.000,00"
+          autofocus
+          id="input-clean"
+        />
+      </label>
+
+      <button class="convert-button">Converter</button>
+      <br />
+
+      <button class="clean-button">Limpar formulário</button>
+
+      <section>
+        <div class="currency-box">
+          <img
+            class="currency-img-convert"
+            src="./assets/real.png"
+            alt="logo-moeda-a-converter"
+          />
+          <p class="currency" id="currency-converter-de">Real brasileiro</p>
+          <p class="currency-value-to-convert" id="select-converter-de">
+            R$ 0,00
+          </p>
+        </div>
+
+        <img class="arrow-img" src="./assets/seta.png" alt="seta" />
+
+        <div class="currency-box">
+          <img
+            class="currency-img"
+            src="./assets/dollar.png"
+            alt="logo-moeda-convertida"
+          />
+          <p class="currency" id="currency-name">Dólar americano</p>
+          <p class="currency-value" id="select-converter-para">US$ 0.0</p>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="./script.js"></script>
+</html>
