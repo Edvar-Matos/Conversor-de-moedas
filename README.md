@@ -14,12 +14,12 @@ um hover com background que muda de cor quando mouse passa por cima dos inputs.<
    -JAVASCRIPT <br>
    <br>
    <br>
-   <img src="https://github.com/Edvar-Matos/Conversor-de-moedas/blob/master/assets/desktop.png?raw=true"/>
+   <img src="https://github.com/Edvar-Matos/Conversor-de-moedas/blob/master/assets/img.png?raw=true"/>
    <br>
    <h3>Nessa imagem mostra o input selecione uma moeda.</h3>
    <br>
-   <img src="https://github.com/Edvar-Matos/Conversor-de-moedas/blob/master/assets/desktop-2.png?raw=true"/>
+   <img src="https://github.com/Edvar-Matos/Conversor-de-moedas/blob/master/assets/img-2.png?raw=true"/>
    <br>
    <h3>Nessa outra imagem mostra o input selecione outra moeda com o hover e background aplicados, e o botão de limpar o formulário abixo.</h3>
    <br>
-   <img src="https://github.com/Edvar-Matos/Conversor-de-moedas/blob/master/assets/desktop-3.png?raw=true"/>
+   <img src="https://github.com/Edvar-Matos/Conversor-de-moedas/blob/master/assets/img-3.png?raw=true"/>
